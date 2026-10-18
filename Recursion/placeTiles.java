@@ -21,7 +21,7 @@ public class placeTiles{
             int n=sc.nextInt();
             System.out.print("Enter the value of m :");
             int m=sc.nextInt();
-            System.out.println("Number of ways the 1xm tiles can be placed on nxm floor are : "+placeTiles(n,m));
+            System.out.println("Number of ways the 1xm tiles can be placed on nxm floor are : "+countTilePlacements(n,m));
         }    
     }
 }
